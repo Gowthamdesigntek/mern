@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #d37d2d;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+}
+
+.skill {
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Gowtham N</h1>
+        
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://www.canva.com/design/DAF9BQY8Ypo/5foh2zbqcAFDlSKHDxK4PQ/view?utm_content=DAF9BQY8Ypo&utm_campaign=designshare&utm_medium=link&utm_source=editor">Resume</a></li>
+                    <li><a href="https://github.com/Gowthamdesigntek" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/gowtham-n-258669258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+
+    
+    <!-- About Section -->
+    <center>
+    <section id="about">
+        <img src="IMG_20240724_141907.jpg" alt="#" class="profile-img">
+        
+            <h2>About Me</h2>
+            <p>Hello! I’m Gowtham, a dedicated web developer and building high-quality websites and applications. I have a strong background in front-end development and a passion for creating user-friendly, responsive, and visually appealing digital experiences.</p>
+            <p>Throughout my career, I have developed a deep understanding of various web technologies, including HTML, CSS, JavaScript, and React. My experience also extends to back-end development with Node.js and database management using MongoDB and SQL.</p>
+            <p>I am highly skilled in collaborating with cross-functional teams to deliver projects on time and within budget. My ability to problem-solve, coupled with my enthusiasm for staying updated with the latest industry trends, makes me an asset to any development team.</p>
+            <p>In addition to my technical skills, I am committed to continuous learning and professional growth. I actively participate in coding communities, attend workshops, and contribute to open-source projects.</p>
+            <p>When I’m not coding, you can find me exploring new technologies, reading tech blogs, or participating in hackathons. I am always looking for new challenges and opportunities to apply my skills in innovative ways.</p>
+        
+    </section>
+    </center>>
+    <title>Skills</title>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #574d43;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+
+nav ul li a {
+    color: #fffefe;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #f5eeee;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skill {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.skill h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.progress-bar {
+    background: #ebe5e5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #181616;
+    height: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #794f4fc0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border-color: rgb(134, 82, 82);
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+}
+       </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>React</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Java</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>c++</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <title>              Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2aa559a2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 2px;
+            color: #f7f1f1;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ebe5e5;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button[type="submit"] {
+            background-color: #a81414;
+            color: #f5f2f2;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button[type="submit"]:hover {
+            background-color: #cc5757;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h2>     Contact Us</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    
+    <header>
+        
+            <nav>
+                
+                <ul>
+                    <li><a href="https://www.canva.com/design/DAF9BQY8Ypo/5foh2zbqcAFDlSKHDxK4PQ/view?utm_content=DAF9BQY8Ypo&utm_campaign=designshare&utm_medium=link&utm_source=editor">Resume</a></li>
+                    <li><a href="https://github.com/Gowthamdesigntek" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/gowtham-n-258669258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                    
+                </ul>
+            </nav>
+        
+    </header>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gowtham</p>
+        </div>
+    </footer>
+</body>
+</html>
